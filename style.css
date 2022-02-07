@@ -18,16 +18,15 @@ h1, h2, h3, h4 {
 
 .card-white {
   background-color: white;
-  border: 1px solid #e8d1c5;
   padding: 40px;
-  box-shadow: 0px 10px 30px #eddcd2;
   border-radius: 4px;
   margin: 20px 0;
   text-align: center;
 }
 
-.card-white i {
-  font-size: 20px;
+.card-white:hover {
+  border: 1px solid #e8d1c5;
+  box-shadow: 0px 10px 30px #eddcd2;
 }
 
 img {
@@ -75,6 +74,14 @@ img {
 a {
   color: #a47148;
   text-decoration: none;
+}
+
+a:hover {
+  color: #c38e70;
+}
+
+.card-white i {
+  font-size: 20px;
 }
 
 .list-inline {
