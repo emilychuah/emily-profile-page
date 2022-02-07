@@ -1,0 +1,113 @@
+body {
+  background-color: #faf9f9;
+  font-family: 'Open Sans', sans-serif;
+  color: #a47148;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  color: #582f0e;
+  font-family: 'Lora', serif;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  border: 1px solid #e8d1c5;
+  padding: 40px;
+  box-shadow: 0px 10px 30px #eddcd2;
+  border-radius: 4px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.card-white i {
+  font-size: 20px;
+}
+
+img {
+  width: 30%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.button-74 {
+  margin-top: 30px;
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+a {
+  color: #a47148;
+  text-decoration: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
